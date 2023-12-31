@@ -37,6 +37,3 @@ Route::delete('/auth/access-tokens/{token?}',[AccessTokensController::class,'des
 Route::get('/order-delivery/{id}',[ApiDeliveryController::class, 'show']);
 Route::put('/order-delivery/{delivery}',[ApiDeliveryController::class, 'update']);
 
-
-//API_TOKEN="IPR6QrstEsWnMMC8JtHajiqnVKMh7vr3SlekHCbCyAM"
-//CURRENCY_CONVERTER_API_KEY="403818d724ce827ecc4a"
